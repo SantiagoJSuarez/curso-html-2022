@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Index</title>
+  </head>
+  <body>
+    <!-- Rutas absolutas: Tienen un protocolo, http o https y son unicas en la res.
+                                Se suelen utilizar para rutas externas
+            Rutas Relativas: Pueden ser relativas al punto donde nos encontramos o relativas a la raiz del proyecto. No usan protocolo.
+
+        Atributos de los Enlaces:
+        target: define donde se abrira el recurso solicitado. Por norma general siempre que se use rutas absolutas se pone como valor "_blank"
+
+        download: Atributo booleano, sirve para descargar el recurso solicitado
+        IMPORTANTE: el recurso debe estar en tu mismo servidor
+
+        En la carpeta assets se ponen todos los archivos audio visuales (Imagenes, videos, musica,iconos , sonidos)
+        -->
+
+    <nav>
+      <a href="../paginas/anchor-navigation.html#post-1">Post 1</a> |
+      <a href="../paginas/anchor-navigation.html#post-2">Post 2</a> |
+      <a href="../paginas/anchor-navigation.html#post-3">Post 3</a> |
+      <a href="../paginas/anchor-navigation.html#post-4">Post 4</a> |
+      <a href="../paginas/anchor-navigation.html#post-5">Post 5</a> |
+      <a href="../paginas/anchor-navigation.html#post-6">Post 6</a> |
+      <a href="../paginas/anchor-navigation.html#post-7">Post 7</a> |
+      <a href="../paginas/anchor-navigation.html#post-8">Post 8</a>
+      
+    </nav>
+
+    <h1>Home</h1>
+    <a href="contact.html" target=""> Contact </a>
+    <!--Ruta Relativa-->
+    <br />
+    <a href="../paginas/pagina.html" target="_blank"> paginas </a>
+    <!--Ruta Relativa-->
+    <br />
+    <a href="../index.html" download>Index</a>
+    <!--Ruta Relativa-->
+    <br />
+    <a href="http://google.com" download> Ir a Google </a>
+    <!--Ruta absoluta-->
+    <br />
+    <a href="../assets/lobo.jpg" download>Descargar Imagen </a>
+  </body>
+</html>

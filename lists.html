@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <!--Las listas en HTML sirven para listar contenid. En funcion del tipo de contenido de neuestra lista tenemos tres tipos de listas
+        
+            ul (unordered list):  Se utilizan cuando el orden de los elementos no influye(lista de la compra)
+            ol(ordered list): Se utilizan cuando le orden de los elementos es importante(top 10)
+
+            Cada elemento de la lista sew represanta con la etiqueta <li>, tanto en las ul ocmo las ol
+
+            dl(definition list): Se utiliza para hacer una lista de definiciones (diccionario)
+
+            Cada elemento de una lista de definicion lleva 2 etiquetas:
+
+                dt(Definiytion term): El termino que vamos a definir
+                dd(Definition description) : La descripcion del termino 
+
+        
+        -->
+
+          <!--listas anidadas y atributos
+            unir mas de una lista-
+            
+            Atributos de las listas:
+
+            ol ->
+                type: estilo de numeracion (1,A,a,I,i)
+                start: Inicio de las secuancia (un numero)
+
+            ul->
+                type: estilo de los itemas (disc, square, circle )
+        -->
+
+    <h1>Listas</h1>
+    <nav>
+      <ul type="disc">
+        <li><a href="#post-1">Post 1</a></li>
+        <li><a href="#post-2">Post 2</a></li>
+        <li><a href="#post-3">Post 3</a></li>
+        <li><a href="#post-4">Post 4</a></li>
+        <li><a href="#post-5">Post 5</a></li>
+        <li><a href="#post-6">Post 6</a></li>
+        <li><a href="#post-7">Post 7</a> |</li>
+        <li><a href="#post-8">Post 8</a></li>
+      </ul>
+    </nav>
+
+    <h1>Lista de la compra</h1>
+    <ul type="circle">
+      <li>Pan</li>
+      <li>Huevos</li>
+      <li>Leche</li>
+    </ul>
+    <h2>Orden de aprendizaje en el desarrollo web</h2>
+    <ol type="1" start="8">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <h2> Lenguajes para el desarrollo web </h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertex Markup Language: Es un lenguaje de marcado que se usa para estructurar datos en una pagina web </dd>
+
+        <dt>CSS</dt>
+        <dd>Cascade Style Sheets: Es un lengujae de diseño que se utiliza para dar estilo al HTML </dd>
+
+
+        <dt>JavaScript</dt>
+        <dd>Es un lenguja de programacion apra dar interactividad a un sitio web. </dd>
+
+
+    </dl>
+
+    
+
+      
+
+
+
+  </body>
+</html>
