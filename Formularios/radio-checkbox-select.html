@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Radio - Checkbox - Select</title>
+  </head>
+
+  <!-- 
+    radio: Permite seleccionar una única opción de una lista de opciones relacionadas.
+    checkbox: Permite seleccionar varias opciones de una lista de opciones relacionadas
+    select: Crea una lista de opciones donde podemos seleccionar una o varias opciones
+
+    cada opcion ira dentro de una etiqueta <option> </option>
+
+    Si tenemos muchas opciones podemos ordenarlas por categorías a través de la etiqueta <optgroup> con el atributo label para nombrar la categoria
+
+ -->
+
+  <body>
+    <h1>Elementos seleccionables</h1>
+    <form>
+      <h2>Género</h2>
+      <label
+        >Masculino
+        <input type="radio" name="gender" value="masculino" />
+      </label>
+
+      <label
+        >Femenino
+        <input type="radio" name="gender" value="femenino" />
+      </label>
+
+      <label
+        >Desconocido
+        <input type="radio" name="gender" value="desconocido" />
+      </label>
+    </form>
+  </body>
+</html>
