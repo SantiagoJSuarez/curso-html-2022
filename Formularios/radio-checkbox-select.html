@@ -12,16 +12,18 @@
 
     cada opcion ira dentro de una etiqueta <option> </option>
 
+    con la etiqueta <optgroup> se peude agrupar por categorias
+
     Si tenemos muchas opciones podemos ordenarlas por categorías a través de la etiqueta <optgroup> con el atributo label para nombrar la categoria
 
  -->
 
   <body>
-    <h1>Elementos seleccionables</h1>
+     <h1>Elementos seleccionables</h1>
     <form>
-      <h2>Género</h2>
+      <!-- <h2>Género</h2>
       <label
-        >Masculino
+        >Masculino 
         <input type="radio" name="gender" value="masculino" />
       </label>
 
@@ -33,7 +35,56 @@
       <label
         >Desconocido
         <input type="radio" name="gender" value="desconocido" />
+      </label>  -->
+
+    <!-- <h2>Lenguaje que conoces</h2>
+      <label>
+        HTML
+        <input type="checkbox" name="langueges" value="html" />
       </label>
+
+      <label>
+        CSS
+        <input type="checkbox" name="langueges" value="css" />
+      </label>
+
+      <label>
+        JavaScript
+        <input type="checkbox" name="langueges" value="javascript" />
+      </label> -->
+
+<!-- <h2>Elementos seleccionables</h2>
+<select name="lenguajes" multiple>
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="javascript">JavaScript</option> -->
+
+  <h2>Elementos Seleccionables </h2>
+  <select name="mascotas">
+    <optgroup label="4 Patas">
+      <option value="perro">perro</option>
+      <option value="gato">Gato</option>
+      <option value="hamster">Hamster</option>
+      <option value="conejo">Conejo</option>
+    </optgroup>
+
+    <optgroup label="Aves">
+      <option value="loro">Loro</option>
+      <option value="canario">Canario</option>
+    </optgroup>
+
+    <optgroup label="Otras">
+      <option value="serpiente">Serpiente</option>
+      <option value="tarantula">Tarantula</option>
+    </optgroup>
+
+  </select>
+
+
+</select>
+
+
+
     </form>
   </body>
 </html>
